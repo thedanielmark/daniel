@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="Hi! I'm danny, a developer and designer based in Chennai, India. I build apps, websites and computers. I also make videos for YouTube!">
+    <meta name="keywords" content="Web developer, full-stack developer, full stack developer, software engineer, danielmarkd, daniel mark, daniel mark website">
+    <meta property="og:image" content="images/Capture.PNG"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://danielmarkd.com"/>
+    <meta property="og:title" content="Daniel Mark"/>
+    <meta property="og:description" content="Hey, I'm Danny! I'm a developer based in Chennai, India. I build apps, websites and computers. I also make videos for YouTube!"/>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T">
+    <link href=css/index-md.css rel=stylesheet>
+
+    <link href="images/favicon.png" rel="shortcut icon" type="image/png">
+
+    <script src="https://use.fontawesome.com/dbb8197a96.js"></script>
+
+    <title>Contact Me | Daniel Mark</title>
+</head>
+
+
+<body>
+    
+        <div class="sidebar" id="mySidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> <a href="index.php">Home</a> <a href="contact.html">Contact</a><a href="https://www.youtube.com/channel/UCRO3ipEkZHDnFn5mfCm2hzA" target="top">YouTube</a><a href="/webmail">Login</a>
+            </div>
+            
+            <div class="wrapper">
+        
+                <div class="d-flex container header-container">
+                
+                    <div class="site-name-container">
+                        DM
+                    </div>
+                    
+                    <div class="align-self-center d-lg-block d-none ml-auto navbar-container">
+                        <div class="nav-link-container">
+                            <a href="index.php" class=navlink>Home</a>
+                        </div>
+        
+                        <div class="nav-link-container">
+                            <a href="contact.html" class="navlink" target="_top">Contact</a>
+                        </div>
+                        
+                        <div class="nav-link-container">
+                            <a href="https://www.youtube.com/channel/UCRO3ipEkZHDnFn5mfCm2hzA" target="top" class="navlink">YouTube</a>
+                        </div>
+
+                        <div class="nav-link-container">
+                            <a href="resume.pdf" target="top" class="navlink">Resume</a>
+                        </div>
+                        
+                        <div class="nav-link-container">
+                            <a href="/webmail" class="navlink">Login</a>
+                        </div>
+                    
+                        </div>
+                        
+                        <div class="ml-auto d-lg-none menu-button-container">
+                            <div id="main">
+                                <button class="openbtn" onclick="openNav()">
+                                    <img alt="Menu" class="menu-button" src="images/menu.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <script>
+                    function openNav(){
+                        document.getElementById("mySidebar").style.width="100vw";
+                        document.getElementById("main").style.marginLeft="100vw";
+                    }
+                    
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width="0";
+                        document.getElementById("main").style.marginLeft="0";
+                    }
+                </script>
+
+
+                <div class="container justify-content-center">
+
+                    <form action="contact.php" method="POST" class="contact-form">
+
+                        <h3 class="message-sent-acknowledgement">Your message has been sent!</h3>
+
+                        <input type="text" class="contact-input" id="name" placeholder="Name" name="name" required>
+                        <input type="text" class="contact-input" id="email" placeholder="Email" name="email" required>
+                        <input type="text" class="contact-input" id="subject" placeholder="Subject" name="subject" required>
+                        <textarea name="message" name="message" id="message" cols="30" rows="7" class="contact-textarea" name="message" placeholder="Message" required></textarea>
+                        <input type="submit" value="Submit" class="contact-input-submit">
+
+                    </form>
+
+                </div>
+
+            </div><!-- end of wrapper -->
+
+</body>
+</html>

@@ -1,0 +1,543 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton&display=swap);
+@import url(
+  https://fonts.googleapis.com/css?family=Raleway:400,
+  600,
+  800&display=swap
+);
+@import url(
+  https://fonts.googleapis.com/css?family=Open+Sans:600,
+  800&display=swap
+);
+
+body {
+  background: rgb(36, 34, 36);
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.grey-dots {
+  padding: 100px 0 100px 0;
+  color: rgb(100, 100, 100);
+  font-size: 50px;
+}
+
+.site-name-container {
+  padding: 10px 0 0 10px;
+  font-size: 10vw;
+  font-family: "Monoton", sans-serif;
+}
+
+.tagline-container {
+  font-weight: 800;
+  font-size: 1vw;
+  line-height: 1;
+}
+
+.menu-button-container {
+  float: right;
+  padding: 20px 0 0 0;
+}
+
+.menu-button {
+  width: 8vw;
+  height: auto;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(40, 40, 40);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  text-align: center;
+  padding: 4px 0 4px 0;
+  text-decoration: none;
+  font-size: 6vw;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  color: rgb(240, 240, 240);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  font-size: 20vw;
+  float: right;
+}
+
+.openbtn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+.section-1-container {
+  overflow: hidden;
+  margin-top: 30vh;
+}
+
+.orange-center-divider {
+  padding: 0 5px 0 5px;
+  background: rgb(220, 116, 53);
+  margin: 0 10px 0 10px;
+}
+
+.tagline-container {
+  font-size: 10vw;
+  text-align: left;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.half-face {
+  width: 12vw;
+  height: auto;
+}
+
+.hi-img-container {
+  text-align: center;
+}
+
+.hi-img {
+  width: 50vw;
+}
+
+.hi-right-container {
+  margin-top: 40px;
+}
+
+.hi-container {
+  color: rgb(220, 116, 53);
+  font-size: 10vw;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hi-text-container {
+  font-size: 6vw;
+  text-align: center;
+}
+
+.section-3-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-3-main-heading-container {
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 800;
+  color: rgb(220, 116, 53);
+  padding: 0 0 50px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-3-img-container-1 {
+  text-align: center;
+  order: 1;
+}
+
+.section-3-img-container-2 {
+  margin-top: 50px;
+  text-align: center;
+  order: 1;
+}
+
+.design-img {
+  text-align: center;
+  width: 70vw;
+  height: auto;
+}
+
+.section-3-para-container-1 {
+  font-size: 6vw;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  order: 2;
+}
+
+.section-3-para-container-2 {
+  font-size: 6vw;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  order: 2;
+}
+
+.section-3-sub-heading-container {
+  color: rgb(220, 116, 53);
+  font-weight: 600;
+  padding: 20px 0 20px 0;
+  font-size: 6.5vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-4-main-heading-container {
+  text-align: center;
+  font-size: 12vw;
+  font-weight: 800;
+  color: rgb(220, 116, 53);
+  padding: 0 0 20px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-4-sub-heading-container {
+  color: #df7e42;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: 7.5vw;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hire-me-para-container {
+  font-size: 6vw;
+  text-align: center;
+  padding: 30px;
+}
+
+.hire-me-button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hire-me-button {
+  padding: 15px 35px 15px 35px;
+  background: rgb(220, 116, 53);
+  font-weight: 600;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.hire-me-button:hover {
+  background: rgb(240, 136, 73);
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.hire-me-icon {
+  padding: 0 10px 10px 0;
+}
+
+footer {
+  margin-top: 30px;
+  background: rgb(40, 40, 40);
+  padding: 30px 0 20px 0;
+  overflow: hidden;
+}
+
+.footer-links {
+  color: rgb(200, 200, 200);
+  text-align: center;
+  display: block;
+}
+
+.footer-links:hover {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.last-line-holder {
+  padding: 40px 0 0 0;
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+
+.contact-form {
+  margin-top: 80px;
+}
+
+.contact-input {
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  border: 0px;
+  padding: 10px;
+  background: rgb(20, 20, 20);
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+}
+
+.contact-input-submit {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  border: 0px;
+  padding: 10px;
+  background: #df7e42;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+}
+
+.contact-textarea {
+  width: 80vw;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px;
+  padding: 10px;
+  background: rgb(20, 20, 20);
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+}
+
+.message-sent-acknowledgement {
+  text-align: center;
+  font-size: 5vw;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .contact-input {
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    border: 0px;
+    padding: 10px;
+    background: rgb(20, 20, 20);
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .contact-input-submit {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    border: 0px;
+    padding: 10px;
+    background: #df7e42;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .contact-textarea {
+    width: 50vw;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    padding: 10px;
+    background: rgb(20, 20, 20);
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .grey-dots {
+    padding: 200px 0 200px 0;
+    color: rgb(100, 100, 100);
+    font-size: 50px;
+  }
+  .header-container {
+    padding: 40px 0 40px 0;
+    background: transparent;
+    overflow: hidden;
+    line-height: normal;
+  }
+  .site-name-container {
+    padding: none;
+    font-family: "Monoton", sans-serif;
+    font-size: 3vw;
+  }
+  .nav-link-container {
+    float: left;
+    margin-right: 2vw;
+    font-size: 1.2vw;
+  }
+  a.navlink {
+    color: #fff;
+    font-weight: 600;
+  }
+  a.navlink:hover {
+    color: rgb(220, 116, 53);
+    text-decoration: none;
+    transition: 0.4s ease;
+  }
+  a.navlink-active {
+    color: rgb(220, 116, 53);
+    font-weight: 600;
+  }
+  .section-1-container {
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  .half-face {
+    width: 7vw;
+    height: auto;
+  }
+  .orange-center-divider {
+    padding: 0 10px 0 10px;
+    background: rgb(220, 116, 53);
+    display: block;
+    margin: 0 20px 0 20px;
+  }
+  .tagline-container {
+    text-align: left;
+    line-height: 1;
+    font-weight: 800;
+    font-size: 5vw;
+  }
+  .hi-right-container {
+    margin-left: 50px;
+    margin-top: 0;
+  }
+  .hi-img {
+    width: 15vw;
+    height: auto;
+  }
+  .hi-container {
+    color: rgb(220, 116, 53);
+    font-weight: 800;
+    text-align: left;
+    font-size: 3vw;
+    font-family: "Open Sans", sans-serif;
+  }
+  .hi-text-container {
+    width: 40vw;
+    text-align: left;
+    font-size: 1.7vw;
+  }
+  .section-3-container {
+    flex-wrap: nowrap;
+  }
+  .section-3-main-heading-container {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(220, 116, 53);
+    padding: 0 0 50px 0;
+    font-size: 4vw;
+    font-family: "Open Sans", sans-serif;
+  }
+  .section-3-img-container-1 {
+    order: 1;
+  }
+  .section-3-img-container-2 {
+    order: 2;
+  }
+  .design-img {
+    width: 15vw;
+    height: auto;
+  }
+  .section-3-para-container-1 {
+    text-align: center;
+    padding: 0 40px 0 40px;
+    order: 2;
+    font-size: 1.7vw;
+  }
+  .section-3-para-container-2 {
+    text-align: center;
+    padding: 50px 40px 0 40px;
+    order: 1;
+    font-size: 1.7vw;
+  }
+  .section-3-sub-heading-container {
+    color: rgb(220, 116, 53);
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+  }
+  .section-4-main-heading-container {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(220, 116, 53);
+    padding: 0 0 20px 0;
+    font-size: 4vw;
+  }
+  .section-4-sub-heading-container {
+    color: #df7e42;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+  }
+  .hire-me-para-container {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.7vw;
+  }
+  .hire-me-button-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hire-me-button {
+    padding: 15px 35px 15px 35px;
+    background: rgb(220, 116, 53);
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1vw;
+  }
+  .hire-me-button:hover {
+    background: rgb(240, 136, 73);
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  .hire-me-icon {
+    padding: 0 10px 0 0;
+  }
+  footer {
+    background: rgb(40, 40, 40);
+    padding: 50px 0 30px 0;
+    overflow: hidden;
+    font-size: 1vw;
+    font-weight: 600;
+  }
+  .footer-links {
+    color: rgb(200, 200, 200);
+  }
+  .footer-links:hover {
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  .last-line-holder {
+    padding: 40px 0 0 0;
+    text-align: center;
+    color: rgb(200, 200, 200);
+  }
+
+  .message-sent-acknowledgement {
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 25px;
+  }
+}

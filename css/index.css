@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap");
+body {
+  background: rgb(36, 34, 36);
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+
+.dark-hr {
+  border-top: 1px solid rgb(60, 60, 60);
+}
+
+.orange {
+  background: rgb(220, 116, 53);
+}
+
+.card-custom {
+  background-color: rgb(26, 24, 26);
+}
+
+.complete-wrapper {
+  margin: 0px;
+}
+.top-padding {
+  padding: 40px 0px 50px 0px;
+  width: 100%;
+  background: transparent;
+} /*==============menu bar for xs and sm=======================*/
+.header-xs {
+  position: relative;
+  width: 100vw;
+}
+.header-container {
+  position: fixed;
+  background: rgb(36, 34, 36);
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+}
+.open-button {
+  padding: 10px;
+  font-size: 10vw;
+  float: right;
+  right: 0;
+}
+.menu-ul {
+  text-align: center;
+  margin-top: 100px;
+}
+.menu-li {
+  list-style: none;
+  font-size: 6vw;
+}
+.close-button {
+  font-size: 10vw;
+  float: right;
+  right: 0;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgb(20, 20, 20);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav a {
+  padding: 8px 0px 8px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: rgb(220, 116, 53);
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.grey-dots {
+  padding: 100px 0 100px 0;
+  color: rgb(100, 100, 100);
+  font-size: 50px;
+}
+.site-name-container {
+  padding: 10px 0 0 10px;
+  font-size: 10vw;
+  font-family: "Monoton", sans-serif;
+  float: left;
+  left: 0px;
+  width: auto;
+}
+.tagline-container {
+  font-weight: 800;
+  font-size: 1vw;
+  line-height: 1;
+}
+.menu-button-container {
+  float: right;
+  padding: 20px 0 0 0;
+}
+.menu-button {
+  width: 8vw;
+  height: auto;
+}
+.section-1-container {
+  overflow: hidden;
+  margin-top: 30vh;
+}
+.orange-center-divider {
+  padding: 0 5px 0 5px;
+  background: rgb(220, 116, 53);
+  margin: 0 10px 0 10px;
+}
+.tagline-container {
+  font-size: 10vw;
+  text-align: left;
+  line-height: 1;
+  font-weight: 800;
+}
+.half-face {
+  width: 12vw;
+  height: auto;
+}
+.hi-img-container {
+  text-align: center;
+}
+.hi-img {
+  width: 50vw;
+}
+.hi-right-container {
+  margin-top: 40px;
+}
+.hi-container {
+  color: rgb(220, 116, 53);
+  font-size: 10vw;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.hi-text-container {
+  font-size: 6vw;
+  text-align: center;
+} /*==========timeline CSS============*/
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: rgb(100, 100, 100);
+  display: inline-block;
+  position: absolute;
+  left: 9px;
+  width: 2px;
+  height: 100%;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 10px;
+  font-size: 4vw;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: rgb(220, 116, 53);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid rgb(100, 100, 100);
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.experience-container {
+  color: rgb(220, 116, 53);
+  font-size: 6.7vw;
+  font-weight: 800;
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+}
+.position-text {
+  color: #df7e42;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 6vw;
+  font-family: "Ubuntu", sans-serif;
+} /*==========end of timeline CSS=============*/ /*===========skills and stuff CSS=============*/
+.skills-headings {
+  font-weight: 800;
+  color: rgb(220, 116, 53);
+  font-size: 5.5vw;
+}
+.coding-language-name {
+  font-size: 5.5vw;
+} /*===============end of skills and stuff CSS===========*/
+.section-3-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-3-main-heading-container {
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 800;
+  color: rgb(220, 116, 53);
+  padding: 0 0 50px 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.section-3-img-container-1 {
+  text-align: center;
+  order: 1;
+}
+.section-3-img-container-2 {
+  margin-top: 50px;
+  text-align: center;
+  order: 1;
+}
+.design-img {
+  text-align: center;
+  width: 70vw;
+  height: auto;
+}
+.section-3-para-container-1 {
+  font-size: 6vw;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  order: 2;
+}
+.section-3-para-container-2 {
+  font-size: 6vw;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  order: 2;
+}
+.section-3-sub-heading-container {
+  color: rgb(220, 116, 53);
+  font-weight: 600;
+  padding: 20px 0 20px 0;
+  font-size: 6.5vw;
+  font-family: "Ubuntu", sans-serif;
+}
+.section-4-main-heading-container {
+  text-align: center;
+  font-size: 12vw;
+  font-weight: 800;
+  color: rgb(220, 116, 53);
+  padding: 0 0 20px 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.section-4-sub-heading-container {
+  color: #df7e42;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: 7.5vw;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.hire-me-para-container {
+  font-size: 6vw;
+  text-align: center;
+  padding: 30px;
+}
+.hire-me-button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+.hire-me-button {
+  padding: 15px 35px 15px 35px;
+  background: rgb(220, 116, 53);
+  font-weight: 600;
+  color: #fff;
+  border-radius: 25px;
+}
+.hire-me-button:hover {
+  background: rgb(240, 136, 73);
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.hire-me-icon {
+  padding: 0 10px 10px 0;
+}
+footer {
+  margin-top: 30px;
+  background: rgb(40, 40, 40);
+  padding: 30px 0 20px 0;
+  overflow: hidden;
+}
+footer p {
+  font-weight: 400 !important;
+  color: rgb(200, 200, 200);
+}
+.footer-links {
+  color: rgb(200, 200, 200);
+  display: block;
+}
+.footer-links:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.last-line-holder {
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+.last-line-holder a {
+  text-align: center;
+  color: rgb(240, 240, 240);
+}
+.last-line-holder a:hover {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+  .grey-dots {
+    padding: 200px 0 200px 0;
+    color: rgb(100, 100, 100);
+    font-size: 50px;
+  }
+  .top-padding {
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    background: transparent;
+  }
+  .compressed {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .uncompressed {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s;
+  }
+  .header-container {
+    position: fixed;
+    width: 100vw;
+    background: rgb(36, 34, 36);
+    overflow: hidden;
+    z-index: 900;
+    top: 0px;
+  }
+  .site-name-container {
+    padding: none;
+    font-family: "Monoton", sans-serif;
+    font-size: 3vw;
+    width: auto;
+    float: left;
+  }
+  .navbar-container {
+    float: right;
+    right: 0;
+    width: auto;
+    padding: 30px 0px 30px 0px;
+  }
+  .nav-link-container {
+    float: left;
+    margin-right: 2vw;
+    font-size: 1.2vw;
+  }
+  a.navlink {
+    color: #fff;
+    font-weight: 600;
+  }
+  a.navlink:hover {
+    color: rgb(220, 116, 53);
+    text-decoration: none;
+    transition: 0.4s ease;
+  }
+  a.navlink-active {
+    color: rgb(220, 116, 53);
+    font-weight: 600;
+  }
+  .section-1-container {
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  .half-face {
+    width: 7vw;
+    height: auto;
+  }
+  .orange-center-divider {
+    padding: 0 10px 0 10px;
+    background: rgb(220, 116, 53);
+    display: block;
+    margin: 0 20px 0 20px;
+  }
+  .tagline-container {
+    text-align: left;
+    line-height: 1;
+    font-weight: 800;
+    font-size: 5vw;
+  }
+  .hi-right-container {
+    margin-left: 50px;
+    margin-top: 0;
+  }
+  .hi-img {
+    width: 15vw;
+    height: auto;
+  }
+  .hi-container {
+    color: rgb(220, 116, 53);
+    font-weight: 800;
+    text-align: left;
+    font-size: 3vw;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .hi-text-container {
+    width: 40vw;
+    text-align: left;
+    font-size: 1.7vw;
+  } /*==========timeline CSS============*/
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+    z-index: 0;
+  }
+  ul.timeline:before {
+    content: " ";
+    background: rgb(100, 100, 100);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+  }
+  ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-size: 1vw;
+  }
+  ul.timeline > li:before {
+    content: " ";
+    background: rgb(220, 116, 53);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(100, 100, 100);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+  }
+  .experience-container {
+    color: rgb(220, 116, 53);
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .position-text {
+    color: #df7e42;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 1.7vw;
+    font-family: "Ubuntu", sans-serif;
+  } /*==========end of timeline CSS=============*/ /*===========skills and stuff CSS=============*/
+  .skills-headings {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(220, 116, 53);
+    font-size: 1.6vw;
+  }
+  .coding-language-name {
+    font-size: 1.4vw;
+  } /*===============end of skills and stuff CSS===========*/
+  .section-3-container {
+    flex-wrap: nowrap;
+  }
+  .section-3-main-heading-container {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(220, 116, 53);
+    padding: 0 0 50px 0;
+    font-size: 4vw;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .section-3-img-container-1 {
+    order: 1;
+  }
+  .section-3-img-container-2 {
+    order: 2;
+  }
+  .design-img {
+    width: 15vw;
+    height: auto;
+  }
+  .section-3-para-container-1 {
+    text-align: center;
+    padding: 0 40px 0 40px;
+    order: 2;
+    font-size: 1.7vw;
+  }
+  .section-3-para-container-2 {
+    text-align: center;
+    padding: 50px 40px 0 40px;
+    order: 1;
+    font-size: 1.7vw;
+  }
+  .section-3-sub-heading-container {
+    color: rgb(220, 116, 53);
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 2vw;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .section-4-main-heading-container {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(220, 116, 53);
+    padding: 0 0 20px 0;
+    font-size: 4vw;
+  }
+  .section-4-sub-heading-container {
+    color: #df7e42;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .hire-me-para-container {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.7vw;
+  }
+  .hire-me-button-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hire-me-button {
+    padding: 15px 35px 15px 35px;
+    background: rgb(220, 116, 53);
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1vw;
+  }
+  .hire-me-button:hover {
+    background: rgb(240, 136, 73);
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  .hire-me-icon {
+    padding: 0 10px 0 0;
+  }
+  footer {
+    background: rgb(40, 40, 40);
+    padding: 50px 0 30px 0;
+    overflow: hidden;
+    font-size: 1vw;
+  }
+}
