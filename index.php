@@ -130,7 +130,7 @@
                                     <!--spacer-->
                                 </div>
                             </div>
-                            <!--/row-->
+                            <!--/row--> 
 
                             <!-- timeline item 1 -->
                             <div class="row no-gutters">
@@ -216,10 +216,10 @@
                                 <div class="col-sm py-2">
                                     <div class="card card-custom">
                                         <div class="card-body">
-                                            <div class="float-right small">June 2018 - Present</div>
+                                            <div class="float-right small">June 2018 - January 2020</div>
                                             <h4 class="card-title mb-2">YBSS</h4>
                                             <span class="badge badge-dark mb-3">Full-Stack Developer</span>
-                                            <p class="card-text">YBSS is an NGO based in Andhra Pradesh, India that I work for as a full-stack developer. I built their site and maintain it on a voluntary basis but don't actively develop for them anymore.</p>
+                                            <p class="card-text">YBSS is an NGO based in Andhra Pradesh, India that I worked for as a full-stack developer.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -302,7 +302,7 @@
                         <div class="row justify-content-start pl-4 pl-md-0 justify-content-md-center coding-language-name">
                             <table cellpadding="10px" class="mt-2 mb-4 mb-md-0">
                                 <tr>
-                                    <td> <i class="fas fa-comments"></i> </td>
+                                    <td> <i class="fas fa-key"></i> </td>
                                     <td> DHS One </td>
                                 </tr>
                                 <tr>
@@ -314,8 +314,8 @@
                                     <td> Frecord </td>
                                 </tr>
                                 <tr>
-                                    <td> <i class="fas fa-newspaper"></i> </td>
-                                    <td> Pixelly </td>
+                                    <td> <i class="fas fa-comments"></i> </td>
+                                    <td> Fringe </td>
                                 </tr>
                             </table>
                         </div>
@@ -417,7 +417,7 @@
                                 <a href=https://frecord.danielmarkd.com/ class=footer-links target=top>Frecord</a>
                             </li>
                             <li class="pb-1">
-                                <a href=https://torvis.danielmarkd.com/ class=footer-links target=top>Torvis</a>
+                                <a href=https://fringe.danielmarkd.com/ class=footer-links target=top>Fringe</a>
                             </li>
                         </ul>
                     </div><!-- end of column -->
